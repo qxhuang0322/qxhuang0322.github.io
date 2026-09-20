@@ -85,5 +85,41 @@
     "height": 715,
     "bytes": 121408,
     "visuallyVerified": true
+  },
+  {
+    "id": "irs-idem-thz-2025",
+    "image": "assets/publications/irs-idem-thz-2025.png",
+    "alt": "Original system diagram of IRS-assisted integrated data and energy multicast, showing digital and analog beamforming at the transmitter, an intelligent reflecting surface, data users, and energy users.",
+    "width": 1799,
+    "height": 1094,
+    "inputPath": "D:\\PhD\\bio\\tgcn\\system-eps-converted-to.pdf",
+    "method": "Rendered the user-supplied original figure PDF with Poppler, then trimmed exterior white page margins only; no redrawing or content changes.",
+    "figure": "System model",
+    "cropPixels": [
+      1,
+      0,
+      1800,
+      1094
+    ],
+    "visuallyVerified": true,
+    "sourceUrl": "https://doi.org/10.1109/TGCN.2024.3415030"
+  },
+  {
+    "id": "irs-multicast-beamforming-2024",
+    "image": "assets/publications/irs-multicast-beamforming-2024.png",
+    "alt": "Original multicast system diagram showing a transmitter, an intelligent reflecting surface, a blocked direct path, and a group of users.",
+    "width": 1759,
+    "height": 1049,
+    "inputPath": "D:\\PhD\\bio\\wcl\\system_model_IRS-eps-converted-to.pdf",
+    "method": "Rendered the user-supplied original figure PDF with Poppler, then trimmed exterior white page margins only; no redrawing or content changes.",
+    "figure": "System model",
+    "cropPixels": [
+      219,
+      126,
+      1978,
+      1175
+    ],
+    "visuallyVerified": true,
+    "sourceUrl": "https://doi.org/10.1109/LWC.2024.3373494"
   }
 ]

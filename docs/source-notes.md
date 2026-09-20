@@ -32,11 +32,11 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - Outstanding Master's Thesis Award: verified in the user's biography and CityU biography, but no explicit award year; displayed without an invented year.
 - Other scholarship years and prize levels come from the user-supplied CV.
 - IEEE VTC2025-Fall Workshops TPC member: supplied Chinese biography. No specific workshop or journal reviewing role was invented.
-- Teaching Assistant, 2026–2027 Semester A: [official faculty page](https://www.cs.cityu.edu.hk/~helena/). Course assignment is ambiguous, so no course is named.
+- Teaching Assistant: the user explicitly supplied CS1302 Introduction to Computer course, 2025 Fall and 2026 Spring, and requested the same presentation as the reference homepage. This replaces the previous tentative Semester A 2026–2027 entry.
 
 ## Presentation
 
-Academic layout based on [AcaNova-X](https://github.com/yihangtao/AcaNova-X) and [Yu Guo's homepage](https://gy65896.github.io/). All personal content was replaced. Portrait supplied by the user. No visitor counter or analytics script was added.
+Academic layout based on [AcaNova-X](https://github.com/yihangtao/AcaNova-X) and [Yu Guo's homepage](https://gy65896.github.io/). All personal content was replaced. Portrait supplied by the user; the current website photo is the unmodified `qingxiao_google_scholar.jpg`. A Google Maps campus location embed is included at the user’s request. No visitor counter or analytics script was added.
 
 ## Publication figures
 
@@ -50,7 +50,7 @@ Images were taken from the corresponding papers without redrawing. PDF crops con
 | CA3D: Computing Accessibility-Aware Cooperative 3D Deployment of Multiple UAVs | Fig. 3 | [Original paper](https://arxiv.org/html/2605.17852v1#S5.F3.fig2) | Rendered the original vector figure from PDF page 4 at 360 dpi, cropping only the plotted figure; no redrawing or body text. |
 | Shatter Throughput Ceilings: Leveraging Reflection Surfaces to Enhance Transmissions for Vehicular Fast Data Exchange | Fig. 1 | [Original paper](https://arxiv.org/html/2603.02752v1#S1.F1) | Extracted the original embedded PNG image object Im1 directly from PDF page 2; no resizing, redrawing, or body text. |
 
-Exact asset paths, dimensions, and crop details are recorded in `publication-figures.json`. The TGCN terahertz multicast, WCL IRS multicast, and TVT hybrid THz papers currently omit thumbnails because their source figures were unavailable. User-supplied original figures can be added later.
+Exact asset paths, dimensions, and crop details are recorded in `publication-figures.json`. The TGCN terahertz multicast and WCL IRS multicast images were supplied by the user as original figure PDFs and have been added. The non-displayed TVT hybrid THz record still has no image.
 
 ## Display scope and journal metrics
 
@@ -63,3 +63,17 @@ Journal Impact Factors are journal-level Clarivate JCR metrics, with the data ye
 | IEEE Transactions on Wireless Communications | 10.3 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3) |
 | IEEE Transactions on Green Communications and Networking | 6.9 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=2) |
 | IEEE Wireless Communications Letters | 5.1 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3) |
+
+- irs-idem-thz-2025: user-supplied system figure (D:/PhD/bio/tgcn/system-eps-converted-to.pdf); Rendered the user-supplied original figure PDF with Poppler, then trimmed exterior white page margins only; no redrawing or content changes. Source: https://doi.org/10.1109/TGCN.2024.3415030.
+
+- irs-multicast-beamforming-2024: user-supplied system figure (D:/PhD/bio/wcl/system_model_IRS-eps-converted-to.pdf); Rendered the user-supplied original figure PDF with Poppler, then trimmed exterior white page margins only; no redrawing or content changes. Source: https://doi.org/10.1109/LWC.2024.3373494.
+
+## Biography links
+
+School names in About Me are plain text at the user’s request. Kun Yang links to his verified NJU faculty page (https://ise.nju.edu.cn/szll/zjzjs/yangkun.htm). Jie Hu’s old UESTC faculty URL returned an error during verification, so his name currently links to the matching official UESTC faculty introduction (https://www.sice.uestc.edu.cn/info/1470/11935.htm). The collaboration invitation uses the user-requested wording with the profile email.
+
+The Contact map points to the CityU Tat Chee Avenue campus. It does not claim a building or room number. Campus address confirmed from https://www.cityu.edu.hk/directories/academic; an external Google Maps link is also provided.
+
+## University marks
+
+Original university marks are displayed alongside education and the CityU teaching role. CityU and Xidian assets come from their official brand resources; the UESTC seal comes from Article 74 of its official charter. Source URLs and extraction details are recorded in `school-logos.json`.

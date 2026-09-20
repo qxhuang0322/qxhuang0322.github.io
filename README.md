@@ -14,6 +14,7 @@
 | 获奖信息 | `data/honors.json` |
 | 头像 | `assets/profile.jpg` |
 | 论文原图 | `assets/publications/` |
+| 学校标识 | `assets/schools/` |
 | 排版和交互 | `styles.css`、`script.js` |
 
 首页与完整论文列表均只展示 `isFirstAuthor: true` 的论文；其中 `featured: true` 表示论文展示在首页。`status` 使用 `published`、`accepted` 或 `preprint`。`sourceUrls` 用于保存来源，不会显示在网页上。不要用虚构链接或 `#` 代替论文链接。
@@ -21,6 +22,8 @@
 论文图片使用原文中的图，点击可查看大图。将图片放到 `assets/publications/`，在论文记录中设置 `thumbnail`（相对网站根目录的图片路径）、`thumbnailAlt`（图片描述）、`figureLabel`（如 `Fig. 1`）和 `figureSource`（原文链接）。没有原图时不显示配图。
 
 `journalImpactFactor` 保存期刊的 WoS/JCR 影响因子：`value` 是数值、`year` 是指标年份、`sourceUrl` 是官方来源。显示最新核实的期刊指标，不将论文发表年与指标年份混用；arXiv 预印本不显示影响因子。
+
+教育经历使用 `logo` 指向学校标识；助教卡片支持 `institution`、`logo` 和 `items`。更换头像后，构建脚本会自动生成图片版本号，避免浏览器继续显示旧图。Contact 区包含城大校址地图及外部大地图链接。
 
 修改 JSON 后推送到 `main`，GitHub Actions 会重新生成页面、检查链接并发布。也可以直接在 GitHub 网页修改这些数据文件。首次发布需在 Settings → Pages → Source 选择 **GitHub Actions**。
 

@@ -17,8 +17,8 @@
     "Near-Field Communications"
   ],
   "about": [
-    "I am a PhD student in Computer Science at <a href=\"https://www.cityu.edu.hk/\">City University of Hong Kong</a>, supervised by <a href=\"https://www.cs.cityu.edu.hk/~yugufang/\">Prof. Yuguang “Michael” Fang</a>. My research focuses on wireless communications, reconfigurable intelligent surfaces (RIS), holographic MIMO, and near-field communications.",
-    "Before joining CityU in 2025, I received my master's degree in Information and Communication Engineering from the <a href=\"https://en.uestc.edu.cn/\">University of Electronic Science and Technology of China (UESTC)</a> in 2025, and my bachelor's degree in Communication Engineering from <a href=\"https://en.xidian.edu.cn/\">Xidian University</a> in 2022. At UESTC, I was supervised by Prof. Jie Hu and worked closely with Prof. Kun Yang in the Data and Energy Integrated Network Laboratory."
+    "I am a PhD student in Computer Science at City University of Hong Kong, supervised by <a href=\"https://www.cs.cityu.edu.hk/~yugufang/\">Prof. Yuguang “Michael” Fang</a>. My research focuses on wireless communications, reconfigurable intelligent surfaces (RIS), holographic MIMO, and near-field communications.",
+    "Before joining CityU in 2025, I received my master's degree in Information and Communication Engineering from the University of Electronic Science and Technology of China (UESTC) in 2025, and my bachelor's degree in Communication Engineering from Xidian University in 2022. At UESTC, I was supervised by <a href=\"https://www.sice.uestc.edu.cn/info/1470/11935.htm\">Prof. Jie Hu</a> and worked closely with <a href=\"https://ise.nju.edu.cn/szll/zjzjs/yangkun.htm\">Prof. Kun Yang</a> in the Data and Energy Integrated Network Laboratory."
   ],
   "research": [
     {
@@ -45,7 +45,8 @@
       "url": "https://www.cityu.edu.hk/",
       "dates": "2025 – Present",
       "detail": "Supervisor: Prof. Yuguang “Michael” Fang",
-      "color": "burgundy"
+      "color": "burgundy",
+      "logo": "assets/schools/cityu.svg"
     },
     {
       "code": "UESTC",
@@ -54,7 +55,8 @@
       "url": "https://en.uestc.edu.cn/",
       "dates": "2022 – 2025",
       "detail": "Supervisor: Prof. Jie Hu · Collaborator: Prof. Kun Yang",
-      "color": "blue"
+      "color": "blue",
+      "logo": "assets/schools/uestc.png"
     },
     {
       "code": "XDU",
@@ -63,7 +65,8 @@
       "url": "https://en.xidian.edu.cn/",
       "dates": "2018 – 2022",
       "detail": "",
-      "color": "red"
+      "color": "red",
+      "logo": "assets/schools/xidian.png"
     }
   ],
   "service": [
@@ -76,9 +79,10 @@
     {
       "title": "Teaching Assistant",
       "items": [
-        "Computer Science, City University of Hong Kong",
-        "Semester A, 2026–2027"
-      ]
+        "CS1302 Introduction to Computer course (2025 Fall, 2026 Spring)"
+      ],
+      "institution": "City University of Hong Kong",
+      "logo": "assets/schools/cityu.svg"
     }
   ],
   "updated": "2026-09-21"

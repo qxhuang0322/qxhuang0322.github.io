@@ -205,7 +205,11 @@
       "value": 6.9,
       "year": 2025,
       "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=2"
-    }
+    },
+    "thumbnail": "assets/publications/irs-idem-thz-2025.png",
+    "thumbnailAlt": "Original system diagram of IRS-assisted integrated data and energy multicast, showing digital and analog beamforming at the transmitter, an intelligent reflecting surface, data users, and energy users.",
+    "figureLabel": "System model",
+    "figureSource": "https://doi.org/10.1109/TGCN.2024.3415030"
   },
   {
     "id": "holographic-idet-2024",
@@ -291,7 +295,11 @@
       "value": 5.1,
       "year": 2025,
       "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3"
-    }
+    },
+    "thumbnail": "assets/publications/irs-multicast-beamforming-2024.png",
+    "thumbnailAlt": "Original multicast system diagram showing a transmitter, an intelligent reflecting surface, a blocked direct path, and a group of users.",
+    "figureLabel": "System model",
+    "figureSource": "https://doi.org/10.1109/LWC.2024.3373494"
   },
   {
     "id": "hybrid-thz-beamforming-2024",

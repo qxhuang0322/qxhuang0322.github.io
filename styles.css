@@ -131,11 +131,14 @@ a,button,input{-webkit-tap-highlight-color:transparent}
 .service-grid h3{margin:0 0 9px;font:600 13px/1.5 var(--sans)}
 .service-grid p,.service-grid ul{margin:0;color:#7c8996;font-size:11.5px;line-height:1.9}
 .service-grid ul{padding-left:16px}.service-grid li+li{margin-top:3px}
+.service-institution{display:flex;align-items:center;gap:10px;margin:0 0 10px;color:var(--ink);font-size:11.5px;line-height:1.6}
+.service-institution img{display:block;width:36px;height:36px;object-fit:contain;flex-shrink:0}
 
 /* Education and contact */
 .education-list{margin:0;padding:0;list-style:none}
-.education-list>li{display:grid;grid-template-columns:47px minmax(0,1fr);gap:17px;margin:0 0 23px;align-items:start}
+.education-list>li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:17px;margin:0 0 23px;align-items:start}
 .education-list>li:last-child{margin-bottom:0}
+.school-logo{display:block;width:60px;height:60px;padding:4px;object-fit:contain;border:1px solid #e8eaed;border-radius:8px;background:#fff}
 .school-mark{display:flex;width:44px;height:44px;align-items:center;justify-content:center;background:#f4f5f8;border:1px solid #e8eaed;border-radius:7px;color:#797296;font:700 10px/1 var(--serif);letter-spacing:-.5px}
 .school-mark.burgundy{background:#f8f1f4;color:#a27186;border-color:#ece0e6}
 .school-mark.blue{background:#f0f5fa;color:#607d99;border-color:#e2eaf2}
@@ -154,6 +157,10 @@ a,button,input{-webkit-tap-highlight-color:transparent}
 .contact-card a:hover{color:var(--gold)}
 .contact-bottom{grid-column:1/-1;padding-top:15px;border-top:1px solid var(--line);color:#939eaa;font-size:10.5px}
 .contact-bottom a{font-size:inherit}
+.location-map{margin:20px 0 0;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#fbfcfd}
+.location-map iframe{display:block;width:100%;height:320px;border:0;background:#f4f6f8}
+.location-map figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;padding:12px 16px;color:#82909f;font-size:11px;line-height:1.8}
+.location-map figcaption a{color:var(--gold);white-space:nowrap}
 .site-footer{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;max-width:1328px;margin:0 auto;padding:24px 0 27px;color:#a0a8b1;border-top:1px solid var(--line);font-size:10px;line-height:1.8}
 .site-footer p{margin:0}.site-footer a{color:#8d98a5}.site-footer a:hover{color:var(--gold)}
 .back-top{position:fixed;right:26px;bottom:25px;z-index:20;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #e4e8ed;border-radius:8px;background:rgba(255,255,255,.94);color:#8390a0;font-size:18px;line-height:1;box-shadow:0 3px 15px rgba(26,42,58,.04)}
@@ -220,6 +227,7 @@ html{scroll-padding-top:64px}
 .service-grid{grid-template-columns:1fr}
 .education-top{display:block}.education-top time{display:block;margin:2px 0}
 .contact-card{grid-template-columns:1fr;padding:20px;gap:19px}
+.location-map iframe{height:280px}
 .site-footer{margin-left:25px;margin-right:25px}
 .subpage{padding:38px 25px 65px}
 }
@@ -249,7 +257,8 @@ body{font-size:14px}
 .paper-authors{font-size:12px}.paper-meta{gap:7px}
 .paper-links{gap:7px;margin-top:12px}.paper-link{min-height:30px;padding:5px 10px}
 .honors-list h3{font-size:12px}.honors-list p{font-size:10.5px}
-.education-list>li{grid-template-columns:42px minmax(0,1fr);gap:13px;margin-bottom:24px}
+.education-list>li{grid-template-columns:50px minmax(0,1fr);gap:13px;margin-bottom:24px}
+.school-logo{width:48px;height:48px}
 .school-mark{width:40px;height:40px}.education-top h3{font-size:12.5px}.institution{font-size:11px}
 .contact-card{padding:20px 17px}
 .site-footer{display:block;margin-left:22px;margin-right:22px;padding:20px 0 65px;font-size:9.5px;text-align:center}
@@ -287,6 +296,7 @@ html{scroll-behavior:auto}body{color:#222;font-size:10pt;background:#fff}
 .research-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .research-card,.contact-card,.education-list>li,.honors-list>li{break-inside:avoid}
 .service-grid,.contact-card{grid-template-columns:1fr 1fr}
+.location-map{display:none}
 .subpage{max-width:none;padding:0}
 .site-footer{margin:20px 0 0;padding:12px 0;font-size:8pt}
 a{color:#333}

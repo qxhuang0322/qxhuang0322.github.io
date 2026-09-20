@@ -1,0 +1,49 @@
+[
+  {
+    "id": "cityu",
+    "university": "City University of Hong Kong",
+    "asset": "assets/schools/cityu.svg",
+    "path": "D:/PhD/bio/qxhuang0322.github.io/assets/schools/cityu.svg",
+    "sourcePage": "https://www.cityu.edu.hk/ciro/cityu-brand/",
+    "sourceUrl": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/themes/site/cityu/images/logo-coloured-2019.svg",
+    "width": 262.83,
+    "height": 147.4,
+    "format": "svg",
+    "method": "Unmodified official full-color SVG downloaded from the university website; includes the complete mark and bilingual university name.",
+    "visuallyVerified": true,
+    "displayNote": "Keep original aspect ratio, object-fit: contain, white background. The full name will be small inside a square; the CityU mark remains recognizable."
+  },
+  {
+    "id": "uestc",
+    "university": "University of Electronic Science and Technology of China",
+    "asset": "assets/schools/uestc.png",
+    "path": "D:/PhD/bio/qxhuang0322.github.io/assets/schools/uestc.png",
+    "sourcePage": "https://xxgkw.uestc.edu.cn/",
+    "sourceUrl": "https://xxgkw.uestc.edu.cn/__local/A/23/FC/778741892D9413DA3A53590C170_C43C4EF6_A63B5.pdf",
+    "pdfPage": 21,
+    "printedPage": 20,
+    "sourceImage": "Image82.jpg",
+    "width": 225,
+    "height": 212,
+    "format": "png",
+    "method": "Original embedded seal extracted from Article 74 of the official university charter PDF and losslessly saved as PNG; no cropping, recoloring, or redrawing.",
+    "visuallyVerified": true,
+    "displayNote": "Independent circular university seal, suitable for 56-68px with object-fit: contain on white."
+  },
+  {
+    "id": "xidian",
+    "university": "Xidian University",
+    "asset": "assets/schools/xidian.png",
+    "path": "D:/PhD/bio/qxhuang0322.github.io/assets/schools/xidian.png",
+    "sourcePage": "https://xcb.xidian.edu.cn/info/1008/1094.htm",
+    "sourceUrl": "https://xcb.xidian.edu.cn/system/_content/download.jsp?owner=1238761813&urltype=news.DownloadAttachUrl&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F",
+    "sourceArchive": "西安电子科技大学校徽校名（JPG版本）.zip",
+    "sourceEntry": "西安电子科技大学校徽校名（JPG版本）/西电新标志1.jpg",
+    "width": 1870,
+    "height": 1870,
+    "format": "png",
+    "method": "Original official square JPG decoded and saved as PNG; no cropping, resizing, recoloring, tracing, or redrawing.",
+    "visuallyVerified": true,
+    "displayNote": "Independent university seal, white background, suitable for 56-68px with object-fit: contain."
+  }
+]
