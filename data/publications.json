@@ -1,48 +1,290 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "displayTitle": "AcaNova-X: A Modern Academic Homepage with Featured Publications and Demo Preview Support",
-    "authors": "<strong>Your Name</strong>*, Collaborator A*, Collaborator B",
-    "type": "accepted",
+    "id": "srs-physical-essence-2026",
+    "title": "Bringing Environmental Enhancement Back to Its Physical Essence via Specular Reflecting Surfaces",
+    "authors": [
+      "Qingxiao Huang",
+      "Qianyao Ren",
+      "Yiqin Deng",
+      "Jun Huang",
+      "Kun Yang",
+      "Yuguang Fang"
+    ],
+    "venue": "arXiv preprint arXiv:2608.15271",
+    "venueShort": "arXiv",
+    "year": 2026,
+    "status": "preprint",
     "isFirstAuthor": true,
-    "showOnHomepage": true,
-    "featuredOrder": 1,
-    "venue": "CVPR 2025",
-    "year": "2025",
-    "highlight": "(Oral)",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
+    "featured": false,
+    "topic": "RIS",
+    "summary": "Analyzes the near- and far-field behavior of mechanically controlled specular reflecting surfaces, including channel gain, beamwidth, aperture size, and reflection angle.",
+    "doi": "10.48550/arXiv.2608.15271",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.15271"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2608.15271"
+      }
+    ],
+    "sourceUrls": [
+      "https://arxiv.org/abs/2608.15271",
+      "https://arxiv.org/html/2608.15271v1"
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
-    "type": "accepted",
+    "id": "ca3d-2026",
+    "title": "CA3D: Computing Accessibility-Aware Cooperative 3D Deployment of Multiple UAVs",
+    "authors": [
+      "Yiqin Deng",
+      "Zihan Fang",
+      "Yijie Wang",
+      "Qingxiao Huang",
+      "Junhui Gao",
+      "Qianyao Ren",
+      "Yuguang Fang"
+    ],
+    "venue": "IEEE Wireless Communications Letters",
+    "venueShort": "IEEE WCL",
+    "year": 2026,
+    "status": "published",
     "isFirstAuthor": false,
-    "showOnHomepage": true,
-    "featuredOrder": 2,
-    "venue": "NeurIPS 2024",
-    "year": "2024",
-    "highlight": "(Spotlight)",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" }
+    "featured": true,
+    "topic": "Networks",
+    "summary": "Coordinates the three-dimensional placement of multiple UAVs by balancing access to computing resources, task completion, and coverage overlap.",
+    "doi": "10.1109/LWC.2026.3723451",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/LWC.2026.3723451"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.17852"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2605.17852"
+      }
+    ],
+    "sourceUrls": [
+      "https://api.crossref.org/works/10.1109%2FLWC.2026.3723451",
+      "https://scholars.ln.edu.hk/en/publications/ca3d-computing-accessibility-aware-cooperative-3d-deployment-of-m/",
+      "https://arxiv.org/abs/2605.17852"
     ]
   },
   {
-    "title": "Preprint Example with Demo Preview",
-    "authors": "<strong>Your Name</strong>, Collaborator C, Collaborator D",
-    "type": "preprint",
+    "id": "circular-hmimo-2026",
+    "title": "Circular Holographic MIMO Beamforming for Integrated Data and Energy Multicast Systems",
+    "authors": [
+      "Qingxiao Huang",
+      "Yizhe Zhao",
+      "Jie Hu",
+      "Kun Yang",
+      "Yuguang Fang"
+    ],
+    "venue": "IEEE Transactions on Wireless Communications",
+    "venueShort": "IEEE TWC",
+    "year": 2026,
+    "status": "published",
     "isFirstAuthor": true,
-    "showOnHomepage": false,
-    "venue": "Under Review",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" }
+    "featured": true,
+    "topic": "HMIMO",
+    "summary": "Studies circular holographic arrays for near-field data and energy multicast, using spatial orthogonality to design efficient beamformers under energy-harvesting requirements.",
+    "doi": "10.1109/TWC.2025.3620886",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TWC.2025.3620886"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2507.05057"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2507.05057"
+      }
+    ],
+    "sourceUrls": [
+      "https://api.crossref.org/works/10.1109%2FTWC.2025.3620886",
+      "https://scholars.cityu.edu.hk/en/publications/circular-holographic-mimo-beamforming-for-integrated-data-and-ene/",
+      "https://arxiv.org/abs/2507.05057"
+    ]
+  },
+  {
+    "id": "vehicular-reflection-2026",
+    "title": "Shatter Throughput Ceilings: Leveraging Reflection Surfaces to Enhance Transmissions for Vehicular Fast Data Exchange",
+    "authors": [
+      "Qianyao Ren",
+      "Qingxiao Huang",
+      "Yiqin Deng",
+      "Xianhao Chen",
+      "Phone Lin",
+      "Yuguang Fang"
+    ],
+    "venue": "arXiv preprint arXiv:2603.02752",
+    "venueShort": "arXiv",
+    "year": 2026,
+    "status": "preprint",
+    "isFirstAuthor": false,
+    "featured": false,
+    "topic": "RIS",
+    "summary": "Uses roadside reflecting surfaces and coordinated panel rotation to increase spatial diversity and support high-volume data exchange with moving vehicles.",
+    "doi": "10.48550/arXiv.2603.02752",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.02752"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2603.02752"
+      }
+    ],
+    "sourceUrls": [
+      "https://arxiv.org/abs/2603.02752"
+    ]
+  },
+  {
+    "id": "irs-idem-thz-2025",
+    "title": "Intelligent Reflecting Surface Assisted Integrated Data and Energy Multicast System in Terahertz-Bands",
+    "authors": [
+      "Qingxiao Huang",
+      "Jie Hu",
+      "Kun Yang"
+    ],
+    "venue": "IEEE Transactions on Green Communications and Networking",
+    "venueShort": "IEEE TGCN",
+    "year": 2025,
+    "status": "published",
+    "isFirstAuthor": true,
+    "featured": true,
+    "topic": "RIS",
+    "summary": "Investigates intelligent reflecting surfaces for terahertz multicast systems that deliver wireless data and energy to multiple users.",
+    "doi": "10.1109/TGCN.2024.3415030",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TGCN.2024.3415030"
+      },
+      {
+        "label": "Publisher",
+        "url": "https://ieeexplore.ieee.org/document/10559446/"
+      }
+    ],
+    "sourceUrls": [
+      "https://api.crossref.org/works/10.1109%2FTGCN.2024.3415030",
+      "https://ieeexplore.ieee.org/document/10559446/",
+      "https://www.comsoc.org/system/files/2025-03/Publications_Contents_Digest_2025_Mar.pdf"
+    ]
+  },
+  {
+    "id": "holographic-idet-2024",
+    "title": "Holographic Integrated Data and Energy Transfer",
+    "authors": [
+      "Qingxiao Huang",
+      "Jie Hu",
+      "Yizhe Zhao",
+      "Kun Yang"
+    ],
+    "venue": "IEEE Transactions on Wireless Communications",
+    "venueShort": "IEEE TWC",
+    "year": 2024,
+    "status": "published",
+    "isFirstAuthor": true,
+    "featured": true,
+    "topic": "HMIMO",
+    "summary": "Optimizes the current distribution of a holographic surface to improve data rates while meeting wireless energy requirements, with near-field energy focusing and interference control.",
+    "doi": "10.1109/TWC.2024.3477750",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TWC.2024.3477750"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2404.04927"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2404.04927"
+      }
+    ],
+    "sourceUrls": [
+      "https://api.crossref.org/works/10.1109%2FTWC.2024.3477750",
+      "https://arxiv.org/abs/2404.04927",
+      "https://www.comsoc.org/system/files/2024-12/Publications_Contents_Digest_2024_Dec.pdf"
+    ]
+  },
+  {
+    "id": "irs-multicast-beamforming-2024",
+    "title": "Beamforming Design in Intelligent Reflecting Surface Aided Multicast System in Ultra-High Frequency Bands With Large-Scale Antenna Array",
+    "authors": [
+      "Qingxiao Huang",
+      "Jie Hu",
+      "Qingdong Yue",
+      "Kun Yang"
+    ],
+    "venue": "IEEE Wireless Communications Letters",
+    "venueShort": "IEEE WCL",
+    "year": 2024,
+    "status": "published",
+    "isFirstAuthor": true,
+    "featured": true,
+    "topic": "RIS",
+    "summary": "Studies beamforming for multicast transmission with an intelligent reflecting surface and a large antenna array in ultra-high-frequency bands.",
+    "doi": "10.1109/LWC.2024.3373494",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/LWC.2024.3373494"
+      },
+      {
+        "label": "Publisher",
+        "url": "https://ieeexplore.ieee.org/document/10470405/"
+      }
+    ],
+    "sourceUrls": [
+      "https://api.crossref.org/works/10.1109%2FLWC.2024.3373494",
+      "https://ieeexplore.ieee.org/document/10470405/",
+      "https://www.comsoc.org/system/files/2024-06/Publications_Contents_Digest_2024_May.pdf"
+    ]
+  },
+  {
+    "id": "hybrid-thz-beamforming-2024",
+    "title": "Hybrid Terahertz Beamforming Relying on Channel Sparsity and Angular Orthogonality",
+    "authors": [
+      "Qingdong Yue",
+      "Jie Hu",
+      "Tingyu Shui",
+      "Qingxiao Huang",
+      "Kun Yang",
+      "Lajos Hanzo"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "venueShort": "IEEE TVT",
+    "year": 2024,
+    "status": "published",
+    "isFirstAuthor": false,
+    "featured": false,
+    "topic": "MIMO",
+    "summary": "Exploits sparse terahertz channels and angular orthogonality to develop low-complexity hybrid beamforming for single- and multi-user transmission.",
+    "doi": "10.1109/TVT.2023.3332206",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TVT.2023.3332206"
+      },
+      {
+        "label": "PDF",
+        "url": "https://eprints.soton.ac.uk/484085/1/final_clean_xplore.pdf"
+      }
+    ],
+    "sourceUrls": [
+      "https://eprints.soton.ac.uk/484085/"
     ]
   }
 ]

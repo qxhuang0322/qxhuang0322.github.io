@@ -1,12 +1,11 @@
 [
-  {
-    "date": "2025",
-    "title": "Best Paper Award",
-    "org": "International Conference on Computer Vision (ICCV)"
-  },
-  {
-    "date": "2024",
-    "title": "Outstanding PhD Student Award",
-    "org": "Your University"
-  }
+  {"date":"2026","title":"Research Tuition Scholarship","org":"City University of Hong Kong","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"2025","title":"Outstanding Graduate of Sichuan Province","org":"Sichuan Province · Class of 2025","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"2024","title":"National Scholarship for Graduate Students","org":"Ministry of Education of China","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"—","title":"Outstanding Master's Thesis Award","org":"University of Electronic Science and Technology of China","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"2024","title":"Outstanding Graduate of UESTC","org":"University of Electronic Science and Technology of China"},
+  {"date":"2024","title":"Academic Star Award","org":"School of Information and Communication Engineering, UESTC"},
+  {"date":"2024","title":"Young Scholar Award","org":"University of Electronic Science and Technology of China"},
+  {"date":"2022–24","title":"Excellent Graduate Student Scholarship","org":"UESTC · First Prize (2022, 2024), Second Prize (2023)"},
+  {"date":"2019–21","title":"Excellent Student Scholarship","org":"Xidian University · Second Prize (2019, 2021), Third Prize (2020)"}
 ]

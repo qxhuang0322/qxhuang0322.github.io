@@ -1,14 +1,8 @@
 [
-  {
-    "date": "2025-01-01",
-    "content": "Welcome to my new academic homepage! This template is available on GitHub.",
-    "links": [
-        { "text": "GitHub", "url": "https://github.com/yihangtao/AcaNova-X" }
-    ]
-  },
-  {
-     "date": "2024-12-15",
-     "content": "One paper titled 'A Novel Approach to AI' was accepted to CVPR 2025!",
-     "links": []
-  }
+  {"date":"2026-09","content":"Received the <strong>Research Tuition Scholarship</strong> at City University of Hong Kong.","url":"https://jcstemlab-smartcity.github.io/"},
+  {"date":"2026-08","content":"New first-author preprint on <strong>specular reflecting surfaces</strong> and their near- and far-field physical behavior.","url":"https://arxiv.org/abs/2608.15271"},
+  {"date":"2026","content":"Our work on <strong>circular holographic MIMO</strong> appears in IEEE Transactions on Wireless Communications, Volume 25.","url":"https://doi.org/10.1109/TWC.2025.3620886"},
+  {"date":"2025","content":"Started my <strong>PhD in Computer Science</strong> at City University of Hong Kong, supervised by Prof. Yuguang “Michael” Fang.","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"2025","content":"Completed my master's degree at <strong>UESTC</strong> and was recognized as an Outstanding Graduate of Sichuan Province.","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"},
+  {"date":"2024-10","content":"Received the <strong>National Scholarship for Graduate Students</strong>.","url":"https://scholars.cityu.edu.hk/en/persons/qhuang279/"}
 ]
