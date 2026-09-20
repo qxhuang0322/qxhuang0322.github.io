@@ -90,7 +90,7 @@
         const buttons = Array.from(document.querySelectorAll('[data-filter]'));
         const count = document.getElementById('publication-count');
         const emptyState = document.querySelector('.empty-state');
-        const validFilters = new Set(['all', 'first-author', 'published', 'preprint']);
+        const validFilters = new Set(['all', 'published', 'preprint']);
         let filter = 'all';
 
         function normalizeFilter(value) {
@@ -115,9 +115,8 @@
             let visible = 0;
 
             publications.forEach(publication => {
-                const { first, status, search: searchText } = publication.dataset;
+                const { status, search: searchText } = publication.dataset;
                 const matchesFilter = filter === 'all'
-                    || (filter === 'first-author' && first === 'true')
                     || (filter === 'published' && (status === 'published' || status === 'accepted'))
                     || (filter === 'preprint' && status === 'preprint');
                 const text = (searchText || publication.textContent || '').toLowerCase();

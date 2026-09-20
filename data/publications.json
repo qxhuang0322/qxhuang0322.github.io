@@ -15,7 +15,7 @@
     "year": 2026,
     "status": "preprint",
     "isFirstAuthor": true,
-    "featured": false,
+    "featured": true,
     "topic": "RIS",
     "summary": "Analyzes the near- and far-field behavior of mechanically controlled specular reflecting surfaces, including channel gain, beamwidth, aperture size, and reflection angle.",
     "doi": "10.48550/arXiv.2608.15271",
@@ -32,7 +32,11 @@
     "sourceUrls": [
       "https://arxiv.org/abs/2608.15271",
       "https://arxiv.org/html/2608.15271v1"
-    ]
+    ],
+    "thumbnail": "assets/publications/srs-physical-essence-2026.png",
+    "thumbnailAlt": "Original planar system diagram showing a transmitter and receiver linked through a specular reflecting surface, with propagation distances and reflection angles.",
+    "figureLabel": "Fig. 1",
+    "figureSource": "https://arxiv.org/html/2608.15271v1#S2.F1"
   },
   {
     "id": "ca3d-2026",
@@ -51,7 +55,7 @@
     "year": 2026,
     "status": "published",
     "isFirstAuthor": false,
-    "featured": true,
+    "featured": false,
     "topic": "Networks",
     "summary": "Coordinates the three-dimensional placement of multiple UAVs by balancing access to computing resources, task completion, and coverage overlap.",
     "doi": "10.1109/LWC.2026.3723451",
@@ -73,7 +77,11 @@
       "https://api.crossref.org/works/10.1109%2FLWC.2026.3723451",
       "https://scholars.ln.edu.hk/en/publications/ca3d-computing-accessibility-aware-cooperative-3d-deployment-of-m/",
       "https://arxiv.org/abs/2605.17852"
-    ]
+    ],
+    "thumbnail": "assets/publications/ca3d-2026.png",
+    "thumbnailAlt": "Three UAVs at optimized altitudes serving a hotspot of ground users and accessing distributed computing nodes.",
+    "figureLabel": "Fig. 3",
+    "figureSource": "https://arxiv.org/html/2605.17852v1#S5.F3.fig2"
   },
   {
     "id": "circular-hmimo-2026",
@@ -112,7 +120,16 @@
       "https://api.crossref.org/works/10.1109%2FTWC.2025.3620886",
       "https://scholars.cityu.edu.hk/en/publications/circular-holographic-mimo-beamforming-for-integrated-data-and-ene/",
       "https://arxiv.org/abs/2507.05057"
-    ]
+    ],
+    "thumbnail": "assets/publications/circular-hmimo-2026.png",
+    "thumbnailAlt": "Original circular holographic MIMO system diagram showing a digital baseband precoder, RF chains, ring-shaped antenna array, and data and energy users.",
+    "figureLabel": "Fig. 1",
+    "figureSource": "https://arxiv.org/html/2507.05057v1#S1.F1",
+    "journalImpactFactor": {
+      "value": 10.3,
+      "year": 2025,
+      "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3"
+    }
   },
   {
     "id": "vehicular-reflection-2026",
@@ -146,7 +163,11 @@
     ],
     "sourceUrls": [
       "https://arxiv.org/abs/2603.02752"
-    ]
+    ],
+    "thumbnail": "assets/publications/vehicular-reflection-2026.png",
+    "thumbnailAlt": "Roadside reflecting panel patches provide reflected channels between a base station and a target vehicle, alongside direct transmission and sensitive users.",
+    "figureLabel": "Fig. 1",
+    "figureSource": "https://arxiv.org/html/2603.02752v1#S1.F1"
   },
   {
     "id": "irs-idem-thz-2025",
@@ -179,7 +200,12 @@
       "https://api.crossref.org/works/10.1109%2FTGCN.2024.3415030",
       "https://ieeexplore.ieee.org/document/10559446/",
       "https://www.comsoc.org/system/files/2025-03/Publications_Contents_Digest_2025_Mar.pdf"
-    ]
+    ],
+    "journalImpactFactor": {
+      "value": 6.9,
+      "year": 2025,
+      "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=2"
+    }
   },
   {
     "id": "holographic-idet-2024",
@@ -217,7 +243,16 @@
       "https://api.crossref.org/works/10.1109%2FTWC.2024.3477750",
       "https://arxiv.org/abs/2404.04927",
       "https://www.comsoc.org/system/files/2024-12/Publications_Contents_Digest_2024_Dec.pdf"
-    ]
+    ],
+    "thumbnail": "assets/publications/holographic-idet-2024.png",
+    "thumbnailAlt": "Original holographic integrated data and energy transfer system diagram showing data and energy beamformers, a continuous transmitting surface, and receiver combining and energy harvesting.",
+    "figureLabel": "Fig. 1",
+    "figureSource": "https://arxiv.org/html/2404.04927v1#S2.F1",
+    "journalImpactFactor": {
+      "value": 10.3,
+      "year": 2025,
+      "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3"
+    }
   },
   {
     "id": "irs-multicast-beamforming-2024",
@@ -251,7 +286,12 @@
       "https://api.crossref.org/works/10.1109%2FLWC.2024.3373494",
       "https://ieeexplore.ieee.org/document/10470405/",
       "https://www.comsoc.org/system/files/2024-06/Publications_Contents_Digest_2024_May.pdf"
-    ]
+    ],
+    "journalImpactFactor": {
+      "value": 5.1,
+      "year": 2025,
+      "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3"
+    }
   },
   {
     "id": "hybrid-thz-beamforming-2024",

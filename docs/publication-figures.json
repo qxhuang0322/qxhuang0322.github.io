@@ -1,0 +1,89 @@
+[
+  {
+    "id": "srs-physical-essence-2026",
+    "image": "assets/publications/srs-physical-essence-2026.png",
+    "figure": "Fig. 1",
+    "caption": "Planar schematic of the SRS-aided communication system",
+    "alt": "Original planar system diagram showing a transmitter and receiver linked through a specular reflecting surface, with propagation distances and reflection angles.",
+    "sourceUrl": "https://arxiv.org/html/2608.15271v1#S2.F1",
+    "sourceImageUrl": "https://arxiv.org/html/2608.15271v1/Single_SRS.png",
+    "pdfUrl": "https://arxiv.org/pdf/2608.15271",
+    "pdfPage": 3,
+    "width": 1170,
+    "height": 710,
+    "method": "Original vector figure rendered and cropped from PDF page 3 at 400 dpi; figure only, no caption or body text.",
+    "cropPixels": {
+      "x": 1860,
+      "y": 1470,
+      "width": 1170,
+      "height": 710,
+      "dpi": 400
+    },
+    "visuallyVerified": true
+  },
+  {
+    "id": "circular-hmimo-2026",
+    "image": "assets/publications/circular-hmimo-2026.png",
+    "figure": "Fig. 1",
+    "caption": "system model.",
+    "alt": "Original circular holographic MIMO system diagram showing a digital baseband precoder, RF chains, ring-shaped antenna array, and data and energy users.",
+    "sourceUrl": "https://arxiv.org/html/2507.05057v1#S1.F1",
+    "sourceImageUrl": "https://arxiv.org/html/2507.05057v1/system.png",
+    "width": 1160,
+    "height": 393,
+    "method": "Unmodified original PNG from the arXiv HTML figure.",
+    "visuallyVerified": true
+  },
+  {
+    "id": "holographic-idet-2024",
+    "image": "assets/publications/holographic-idet-2024.png",
+    "figure": "Fig. 1",
+    "caption": "H-IDET system",
+    "alt": "Original holographic integrated data and energy transfer system diagram showing data and energy beamformers, a continuous transmitting surface, and receiver combining and energy harvesting.",
+    "sourceUrl": "https://arxiv.org/html/2404.04927v1#S2.F1",
+    "sourceImageUrl": "https://arxiv.org/html/2404.04927v1/system.png",
+    "width": 1600,
+    "height": 900,
+    "method": "Unmodified original PNG from the arXiv HTML figure.",
+    "visuallyVerified": true
+  },
+  {
+    "id": "ca3d-2026",
+    "status": "ready",
+    "image": "assets/publications/ca3d-2026.png",
+    "sourceUrl": "https://arxiv.org/pdf/2605.17852",
+    "htmlUrl": "https://arxiv.org/html/2605.17852v1#S5.F3.fig2",
+    "figure": "Fig. 3",
+    "page": 4,
+    "caption": "CA3D-optimized deployment with three UAVs.",
+    "alt": "Three UAVs at optimized altitudes serving a hotspot of ground users and accessing distributed computing nodes.",
+    "method": "Rendered the original vector figure from PDF page 4 at 360 dpi, cropping only the plotted figure; no redrawing or body text.",
+    "cropAt360Dpi": {
+      "x": 1680,
+      "y": 935,
+      "width": 1040,
+      "height": 620
+    },
+    "note": "Original Fig. 1 is only 367 x 293 pixels even in the PDF. Fig. 3 was selected to preserve native vector detail and show the optimized deployment.",
+    "width": 1040,
+    "height": 620,
+    "bytes": 127209,
+    "visuallyVerified": true
+  },
+  {
+    "id": "vehicular-reflection-2026",
+    "status": "ready",
+    "image": "assets/publications/vehicular-reflection-2026.png",
+    "sourceUrl": "https://arxiv.org/pdf/2603.02752",
+    "htmlUrl": "https://arxiv.org/html/2603.02752v1#S1.F1",
+    "figure": "Fig. 1",
+    "page": 2,
+    "caption": "The deployment of reflecting panel patches (RPPs) in the reflection enhanced transmission framework (RETF).",
+    "alt": "Roadside reflecting panel patches provide reflected channels between a base station and a target vehicle, alongside direct transmission and sensitive users.",
+    "method": "Extracted the original embedded PNG image object Im1 directly from PDF page 2; no resizing, redrawing, or body text.",
+    "width": 984,
+    "height": 715,
+    "bytes": 121408,
+    "visuallyVerified": true
+  }
+]

@@ -10,24 +10,76 @@
   "cityu": "https://scholars.cityu.edu.hk/en/persons/qhuang279/",
   "github": "https://github.com/qxhuang0322",
   "lab": "https://jcstemlab-smartcity.github.io/",
-  "interests": ["Wireless Communications", "Reconfigurable Intelligent Surfaces", "Holographic MIMO", "Near-Field Communications"],
+  "interests": [
+    "Wireless Communications",
+    "Reconfigurable Intelligent Surfaces",
+    "Holographic MIMO",
+    "Near-Field Communications"
+  ],
   "about": [
     "I am a PhD student in Computer Science at <a href=\"https://www.cityu.edu.hk/\">City University of Hong Kong</a>, supervised by <a href=\"https://www.cs.cityu.edu.hk/~yugufang/\">Prof. Yuguang “Michael” Fang</a>. My research focuses on wireless communications, reconfigurable intelligent surfaces (RIS), holographic MIMO, and near-field communications.",
     "Before joining CityU in 2025, I received my master's degree in Information and Communication Engineering from the <a href=\"https://en.uestc.edu.cn/\">University of Electronic Science and Technology of China (UESTC)</a> in 2025, and my bachelor's degree in Communication Engineering from <a href=\"https://en.xidian.edu.cn/\">Xidian University</a> in 2022. At UESTC, I was supervised by Prof. Jie Hu and worked closely with Prof. Kun Yang in the Data and Energy Integrated Network Laboratory."
   ],
   "research": [
-    {"code": "RIS", "title": "Intelligent Surfaces", "description": "Reconfigurable and specular reflecting surfaces for shaping wireless propagation, with beamforming and multicast transmission in conventional and terahertz bands."},
-    {"code": "HMIMO", "title": "Holographic & Near-Field MIMO", "description": "Electromagnetic modeling and beamforming for continuous and circular holographic arrays, including spatial orthogonality and near-field energy focusing."},
-    {"code": "IDET", "title": "Wireless Information & Power", "description": "Integrated data and energy transfer through joint beamforming design, balancing communication performance and wireless energy-harvesting requirements."}
+    {
+      "code": "RIS",
+      "title": "Intelligent Surfaces",
+      "description": "Reconfigurable and specular reflecting surfaces for shaping wireless propagation, with beamforming and multicast transmission in conventional and terahertz bands."
+    },
+    {
+      "code": "HMIMO",
+      "title": "Holographic & Near-Field MIMO",
+      "description": "Electromagnetic modeling and beamforming for continuous and circular holographic arrays, including spatial orthogonality and near-field energy focusing."
+    },
+    {
+      "code": "IDET",
+      "title": "Wireless Information & Power",
+      "description": "Integrated data and energy transfer through joint beamforming design, balancing communication performance and wireless energy-harvesting requirements."
+    }
   ],
   "education": [
-    {"code": "CityU", "degree": "PhD in Computer Science", "institution": "City University of Hong Kong", "url": "https://www.cityu.edu.hk/", "dates": "2025 – Present", "detail": "Supervisor: Prof. Yuguang “Michael” Fang", "color": "burgundy"},
-    {"code": "UESTC", "degree": "Master's in Information and Communication Engineering", "institution": "University of Electronic Science and Technology of China", "url": "https://en.uestc.edu.cn/", "dates": "2022 – 2025", "detail": "Supervisor: Prof. Jie Hu · Collaborator: Prof. Kun Yang", "color": "blue"},
-    {"code": "XDU", "degree": "Bachelor's in Communication Engineering", "institution": "Xidian University", "url": "https://en.xidian.edu.cn/", "dates": "2018 – 2022", "detail": "", "color": "red"}
+    {
+      "code": "CityU",
+      "degree": "PhD in Computer Science",
+      "institution": "City University of Hong Kong",
+      "url": "https://www.cityu.edu.hk/",
+      "dates": "2025 – Present",
+      "detail": "Supervisor: Prof. Yuguang “Michael” Fang",
+      "color": "burgundy"
+    },
+    {
+      "code": "UESTC",
+      "degree": "Master's in Information and Communication Engineering",
+      "institution": "University of Electronic Science and Technology of China",
+      "url": "https://en.uestc.edu.cn/",
+      "dates": "2022 – 2025",
+      "detail": "Supervisor: Prof. Jie Hu · Collaborator: Prof. Kun Yang",
+      "color": "blue"
+    },
+    {
+      "code": "XDU",
+      "degree": "Bachelor's in Communication Engineering",
+      "institution": "Xidian University",
+      "url": "https://en.xidian.edu.cn/",
+      "dates": "2018 – 2022",
+      "detail": "",
+      "color": "red"
+    }
   ],
   "service": [
-    {"title": "Technical Program Committee", "items": ["IEEE VTC2025-Fall Workshops · TPC Member"]},
-    {"title": "Teaching Assistant", "items": ["Computer Science, City University of Hong Kong", "Semester A, 2026–2027"]}
+    {
+      "title": "Technical Program Committee",
+      "items": [
+        "IEEE VTC2025-Fall Workshops · TPC Member"
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "items": [
+        "Computer Science, City University of Hong Kong",
+        "Semester A, 2026–2027"
+      ]
+    }
   ],
-  "updated": "2026-09-20"
+  "updated": "2026-09-21"
 }

@@ -16,6 +16,14 @@ for(const p of papers){
  assert(Number.isInteger(p.year)&&p.year>=2000,`Invalid year: ${p.id}`);
  assert(p.links.length&&p.links.every(l=>/^https:\/\//.test(l.url)),`Missing paper links: ${p.id}`);
  assert(p.sourceUrls?.length,`Missing provenance: ${p.id}`);
+ if(p.thumbnail){
+  assert(p.thumbnailAlt&&p.figureLabel&&/^https:\/\//.test(p.figureSource||''),`Missing figure description or source: ${p.id}`);
+  assert(p.thumbnail.startsWith('assets/publications/'),`Unexpected figure path: ${p.id}`);
+ }
+ if(p.journalImpactFactor){
+  const metric=p.journalImpactFactor;
+  assert(p.status!=='preprint'&&Number.isFinite(metric.value)&&metric.value>0&&Number.isInteger(metric.year)&&/^https:\/\//.test(metric.sourceUrl),`Invalid journal impact factor: ${p.id}`);
+ }
  if(p.doi){assert(!dois.has(p.doi),`Duplicate DOI: ${p.doi}`);dois.add(p.doi);}
  if(p.status==='published')assert(p.doi&&p.doi.startsWith('10.1109/'),`Published IEEE paper lacks IEEE DOI: ${p.id}`);
 }
@@ -40,6 +48,6 @@ for(const file of files){
 }
 const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const full=fs.readFileSync(path.join(root,'pages/all-publications.html'),'utf8');
-assert.equal((home.match(/class="publication"/g)||[]).length,papers.filter(p=>p.featured).length,'Home selection differs from data');
-assert.equal((full.match(/class="publication"/g)||[]).length,papers.length,'Full list differs from data');
+assert.equal((home.match(/class="publication"/g)||[]).length,papers.filter(p=>p.isFirstAuthor&&p.featured).length,'Home selection differs from data');
+assert.equal((full.match(/class="publication"/g)||[]).length,papers.filter(p=>p.isFirstAuthor).length,'Full list differs from data');
 console.log(`Validated ${files.length} pages, every local link/anchor, and ${papers.length} publication records.`);

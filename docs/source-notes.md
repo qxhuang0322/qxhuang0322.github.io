@@ -1,6 +1,6 @@
 # Content verification
 
-Reviewed 20 September 2026. This document records provenance for future maintenance.
+Reviewed 21 September 2026. This document records provenance for future maintenance.
 
 ## Identity and biography
 
@@ -21,7 +21,7 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - SRS arXiv:2608.15271 and vehicular reflection arXiv:2603.02752 remain labeled preprints. No full journal acceptance is inferred from a conference-related note.
 - Formal issue years take precedence over earlier online-first years (e.g. TGCN DOI includes 2024 while the issue year is 2025).
 - A 2022 paper by a same-named author at Communication University of China was excluded because the affiliation did not match.
-- Small publication illustrations are original conceptual diagrams of research topics, not paper figures or experimental results.
+- Publication illustrations use figures from the corresponding papers, with a source link below each image. Conceptual placeholder diagrams have been removed. Figure sources and extraction details are recorded below.
 - No unverified IEEE author-profile URL, source-code URL, citation count, or co-first-authorship marker is included.
 
 ## Honors and service
@@ -37,3 +37,29 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 ## Presentation
 
 Academic layout based on [AcaNova-X](https://github.com/yihangtao/AcaNova-X) and [Yu Guo's homepage](https://gy65896.github.io/). All personal content was replaced. Portrait supplied by the user. No visitor counter or analytics script was added.
+
+## Publication figures
+
+Images were taken from the corresponding papers without redrawing. PDF crops contain only the figure, with no surrounding body text. The original diagrams and results are unchanged. The images link to their source papers, and clicking a thumbnail opens the full image.
+
+| Paper | Figure | Source | Method |
+|---|---|---|---|
+| Bringing Environmental Enhancement Back to Its Physical Essence via Specular Reflecting Surfaces | Fig. 1 | [Original paper](https://arxiv.org/html/2608.15271v1#S2.F1) | Original vector figure rendered and cropped from PDF page 3 at 400 dpi; figure only, no caption or body text. |
+| Circular Holographic MIMO Beamforming for Integrated Data and Energy Multicast Systems | Fig. 1 | [Original paper](https://arxiv.org/html/2507.05057v1#S1.F1) | Unmodified original PNG from the arXiv HTML figure. |
+| Holographic Integrated Data and Energy Transfer | Fig. 1 | [Original paper](https://arxiv.org/html/2404.04927v1#S2.F1) | Unmodified original PNG from the arXiv HTML figure. |
+| CA3D: Computing Accessibility-Aware Cooperative 3D Deployment of Multiple UAVs | Fig. 3 | [Original paper](https://arxiv.org/html/2605.17852v1#S5.F3.fig2) | Rendered the original vector figure from PDF page 4 at 360 dpi, cropping only the plotted figure; no redrawing or body text. |
+| Shatter Throughput Ceilings: Leveraging Reflection Surfaces to Enhance Transmissions for Vehicular Fast Data Exchange | Fig. 1 | [Original paper](https://arxiv.org/html/2603.02752v1#S1.F1) | Extracted the original embedded PNG image object Im1 directly from PDF page 2; no resizing, redrawing, or body text. |
+
+Exact asset paths, dimensions, and crop details are recorded in `publication-figures.json`. The TGCN terahertz multicast, WCL IRS multicast, and TVT hybrid THz papers currently omit thumbnails because their source figures were unavailable. User-supplied original figures can be added later.
+
+## Display scope and journal metrics
+
+At the user’s request, both the homepage selection and the publication archive display only the five first-authored records. Other records remain in the data file for maintenance. First-author badges and the redundant first-author filter were removed.
+
+Journal Impact Factors are journal-level Clarivate JCR metrics, with the data year shown beside each value. The latest verified values are from 2025 (released in June 2026), rather than the individual paper publication year. No impact factor is assigned to an arXiv preprint.
+
+| Journal | 2025 JIF | Official source |
+|---|---:|---|
+| IEEE Transactions on Wireless Communications | 10.3 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3) |
+| IEEE Transactions on Green Communications and Networking | 6.9 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=2) |
+| IEEE Wireless Communications Letters | 5.1 | [IEEE / IEEE ComSoc](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-August-2026.pdf#page=3) |
