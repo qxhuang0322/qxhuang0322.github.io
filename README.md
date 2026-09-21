@@ -23,7 +23,7 @@
 
 `journalImpactFactor` 保存期刊的 WoS/JCR 影响因子：`value` 是数值、`year` 是指标年份、`sourceUrl` 是官方来源。显示最新核实的期刊指标，不将论文发表年与指标年份混用；arXiv 预印本不显示影响因子。
 
-教育经历使用 `logo` 指向学校标识；助教卡片支持 `institution`、`logo` 和 `items`。更换头像后，构建脚本会自动生成图片版本号，避免浏览器继续显示旧图。Contact 区包含城大校址地图及外部大地图链接。
+教育经历使用 `logo` 指向学校标识；助教卡片支持 `institution`、`logo` 和 `items`。更新头像、样式或脚本后，构建脚本会自动生成资源版本号，使刷新后的页面加载对应的新版本。已经打开的网页需要刷新后才会显示新内容。Contact 区包含城大校址地图及外部大地图链接。
 
 修改 JSON 后推送到 `main`，GitHub Actions 会重新生成页面、检查链接并发布。也可以直接在 GitHub 网页修改这些数据文件。首次发布需在 Settings → Pages → Source 选择 **GitHub Actions**。
 

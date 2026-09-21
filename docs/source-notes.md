@@ -29,7 +29,7 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - Research Tuition Scholarship: CityU record (1 September 2026) and [lab news](https://jcstemlab-smartcity.github.io/) (5 September 2026).
 - National Graduate Scholarship: 2024, consistent across the local CV, English biography and CityU biography. A 2025 date in the Chinese draft was inconsistent.
 - Outstanding Graduate of Sichuan Province: Class of 2025. UESTC's 2025 graduating-cohort nomination list was published in November 2024, explaining the earlier CV date.
-- Outstanding Master's Thesis Award: verified in the user's biography and CityU biography, but no explicit award year; displayed without an invented year.
+- Outstanding Master's Thesis Award: verified in the user's biography and CityU biography; the user explicitly confirmed the award year as 2025.
 - UGC Projects Funded Full-time PhD Studentship: explicitly supplied by the user. The user requested the PhD enrollment year, 2025, as the displayed date.
 - The UESTC Excellent Graduate Student Scholarship and Xidian Excellent Student Scholarship entries were removed at the user’s request.
 - TPC membership: IEEE VTC2025-Fall Workshops from the supplied Chinese biography; IEEE GLOBECOM 2026 Workshops explicitly added by the user. No individual workshop title was supplied. At the user’s request, both TPC entries appear under Conference Reviewer alongside Pacific Graphics 2026.
