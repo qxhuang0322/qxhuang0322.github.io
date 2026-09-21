@@ -17,8 +17,8 @@
     "Near-Field Communications"
   ],
   "about": [
-    "I am a PhD student in Computer Science at City University of Hong Kong, supervised by <a href=\"https://www.cs.cityu.edu.hk/~yugufang/\">Prof. Yuguang “Michael” Fang</a>. My research focuses on wireless communications, reconfigurable intelligent surfaces (RIS), holographic MIMO, and near-field communications.",
-    "Before joining CityU in 2025, I received my master's degree in Information and Communication Engineering from the University of Electronic Science and Technology of China (UESTC) in 2025, and my bachelor's degree in Communication Engineering from Xidian University in 2022. At UESTC, I was supervised by <a href=\"https://www.sice.uestc.edu.cn/info/1470/11935.htm\">Prof. Jie Hu</a> and worked closely with <a href=\"https://ise.nju.edu.cn/szll/zjzjs/yangkun.htm\">Prof. Kun Yang</a> in the Data and Energy Integrated Network Laboratory."
+    "I am a PhD student in Computer Science at City University of Hong Kong, supervised by <a href=\"https://www.cs.cityu.edu.hk/~yugufang/\">Prof. Yuguang “Michael” Fang</a>. My research focuses on wireless communications, intelligent surfaces, holographic MIMO, and near-field communications.",
+    "Before joining CityU in 2025, I received my master's degree in Information and Communication Engineering from the University of Electronic Science and Technology of China (UESTC) in 2025, and my bachelor's degree in Communication Engineering from Xidian University in 2022. At UESTC, I was supervised by <a href=\"https://www.sice.uestc.edu.cn/info/1470/11935.htm\">Prof. Jie Hu</a> and worked closely with <a href=\"https://ise.nju.edu.cn/szll/zjzjs/yangkun.htm\">Prof. Kun Yang</a> and <a href=\"https://faculty.uestc.edu.cn/zhaoyizhe1/zh_CN/index.htm\">Prof. Yizhe Zhao</a> in the Data and Energy Integrated Network Laboratory."
   ],
   "research": [
     {
@@ -71,10 +71,11 @@
   ],
   "service": [
     {
-      "title": "Technical Program Committee",
+      "title": "Conference Reviewer",
       "items": [
         "IEEE GLOBECOM 2026 Workshops · TPC Member",
-        "IEEE VTC2025-Fall Workshops · TPC Member"
+        "IEEE VTC2025-Fall Workshops · TPC Member",
+        "Pacific Graphics 2026 (PG 2026)"
       ]
     },
     {
@@ -84,12 +85,6 @@
         "IEEE Transactions on Vehicular Technology (TVT)",
         "npj Wireless Technology",
         "IET Smart Cities"
-      ]
-    },
-    {
-      "title": "Conference Reviewer",
-      "items": [
-        "Pacific Graphics 2026 (PG 2026)"
       ]
     },
     {

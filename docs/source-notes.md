@@ -32,7 +32,7 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - Outstanding Master's Thesis Award: verified in the user's biography and CityU biography, but no explicit award year; displayed without an invented year.
 - UGC Projects Funded Full-time PhD Studentship: explicitly supplied by the user. The user requested the PhD enrollment year, 2025, as the displayed date.
 - The UESTC Excellent Graduate Student Scholarship and Xidian Excellent Student Scholarship entries were removed at the user’s request.
-- TPC membership: IEEE VTC2025-Fall Workshops from the supplied Chinese biography; IEEE GLOBECOM 2026 Workshops explicitly added by the user. No individual workshop title was supplied.
+- TPC membership: IEEE VTC2025-Fall Workshops from the supplied Chinese biography; IEEE GLOBECOM 2026 Workshops explicitly added by the user. No individual workshop title was supplied. At the user’s request, both TPC entries appear under Conference Reviewer alongside Pacific Graphics 2026.
 - Journal and conference reviewer roles explicitly supplied by the user: ACM Computing Surveys, IEEE Transactions on Vehicular Technology (TVT), npj Wireless Technology, IET Smart Cities, and Pacific Graphics 2026 (PG 2026). Journal and conference names were normalized against official sources: https://vtsociety.org/publication/ieee-transactions-vehicular-technology, https://www.nature.com/npjwireltech, https://ietresearch.onlinelibrary.wiley.com/journal/26317680, and https://pacificgraphics2026.github.io/.
 - Teaching Assistant: the user explicitly supplied CS1302 Introduction to Computer course, 2025 Fall and 2026 Spring, and requested the same presentation as the reference homepage. This replaces the previous tentative Semester A 2026–2027 entry.
 
@@ -79,3 +79,5 @@ The Contact map points to the CityU Tat Chee Avenue campus. It does not claim a 
 ## University marks
 
 Original university marks are displayed alongside education and the CityU teaching role. CityU and Xidian assets come from their official brand resources; the UESTC seal comes from Article 74 of its official charter. Source URLs and extraction details are recorded in `school-logos.json`.
+
+The user added Yizhe Zhao as a close collaborator in About Me and requested the broader term intelligent surfaces in the research sentence. The link https://faculty.uestc.edu.cn/zhaoyizhe1/zh_CN/index.htm was verified as Zhao Yizhe (赵毅哲), UESTC associate professor, via the official faculty profile and the linked school introduction https://www.sice.uestc.edu.cn/info/1086/14384.htm.
