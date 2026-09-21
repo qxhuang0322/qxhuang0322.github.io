@@ -32,7 +32,8 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - Outstanding Master's Thesis Award: verified in the user's biography and CityU biography, but no explicit award year; displayed without an invented year.
 - UGC Projects Funded Full-time PhD Studentship: explicitly supplied by the user. The user requested the PhD enrollment year, 2025, as the displayed date.
 - The UESTC Excellent Graduate Student Scholarship and Xidian Excellent Student Scholarship entries were removed at the user’s request.
-- IEEE VTC2025-Fall Workshops TPC member: supplied Chinese biography. No specific workshop or journal reviewing role was invented.
+- TPC membership: IEEE VTC2025-Fall Workshops from the supplied Chinese biography; IEEE GLOBECOM 2026 Workshops explicitly added by the user. No individual workshop title was supplied.
+- Journal and conference reviewer roles explicitly supplied by the user: ACM Computing Surveys, IEEE Transactions on Vehicular Technology (TVT), npj Wireless Technology, IET Smart Cities, and Pacific Graphics 2026 (PG 2026). Journal and conference names were normalized against official sources: https://vtsociety.org/publication/ieee-transactions-vehicular-technology, https://www.nature.com/npjwireltech, https://ietresearch.onlinelibrary.wiley.com/journal/26317680, and https://pacificgraphics2026.github.io/.
 - Teaching Assistant: the user explicitly supplied CS1302 Introduction to Computer course, 2025 Fall and 2026 Spring, and requested the same presentation as the reference homepage. This replaces the previous tentative Semester A 2026–2027 entry.
 
 ## Presentation
