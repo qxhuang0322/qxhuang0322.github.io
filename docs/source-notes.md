@@ -30,7 +30,7 @@ Every record in `data/publications.json` contains `sourceUrls`. Formal IEEE publ
 - National Graduate Scholarship: 2024, consistent across the local CV, English biography and CityU biography. A 2025 date in the Chinese draft was inconsistent.
 - Outstanding Graduate of Sichuan Province: Class of 2025. UESTC's 2025 graduating-cohort nomination list was published in November 2024, explaining the earlier CV date.
 - Outstanding Master's Thesis Award: verified in the user's biography and CityU biography, but no explicit award year; displayed without an invented year.
-- UGC Projects Funded Full-time PhD Studentship: explicitly supplied by the user. No funding dates were specified, so no dates are inferred from PhD enrollment.
+- UGC Projects Funded Full-time PhD Studentship: explicitly supplied by the user. The user requested the PhD enrollment year, 2025, as the displayed date.
 - The UESTC Excellent Graduate Student Scholarship and Xidian Excellent Student Scholarship entries were removed at the user’s request.
 - IEEE VTC2025-Fall Workshops TPC member: supplied Chinese biography. No specific workshop or journal reviewing role was invented.
 - Teaching Assistant: the user explicitly supplied CS1302 Introduction to Computer course, 2025 Fall and 2026 Spring, and requested the same presentation as the reference homepage. This replaces the previous tentative Semester A 2026–2027 entry.
