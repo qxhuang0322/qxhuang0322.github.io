@@ -21,6 +21,8 @@
 
 完整引用支持 `volume`（卷）、`issue`（期）、`pages`（页码）、`articleNumber`（文章编号）和 `earlyAccess`（在线优先发表）。只填写已通过出版商或 Crossref 核实的元数据；预印本明确标注，不重复列出同篇论文的期刊版和预印本版。
 
+已接收但尚无公开链接或 DOI 的会议论文可使用 `status: "accepted"`、`publicationType: "conference"`，并在 `sourceNote` 中记录作者确认信息；页面显示 Accepted，不虚构 DOI、页码或论文链接。
+
 论文图片使用原文中的图，点击可查看大图。将图片放到 `assets/publications/`，在论文记录中设置 `thumbnail`（相对网站根目录的图片路径）、`thumbnailAlt`（图片描述）、`figureLabel`（如 `Fig. 1`）和 `figureSource`（原文链接）。没有原图时不显示配图。
 
 `journalImpactFactor` 保存期刊的 WoS/JCR 影响因子：`value` 是数值、`year` 是指标年份、`sourceUrl` 是官方来源。显示最新核实的期刊指标，不将论文发表年与指标年份混用；arXiv 预印本不显示影响因子。

@@ -1,5 +1,28 @@
 [
   {
+    "id": "srs-propagation-globecom-2026",
+    "title": "Near/Far-Field Propagation Characterizations of Specular Reflecting Surfaces",
+    "authors": [
+      "Qingxiao Huang",
+      "Qianyao Ren",
+      "Yiqin Deng",
+      "Jun Huang",
+      "Kun Yang",
+      "Yuguang Fang"
+    ],
+    "venue": "IEEE Global Communications Conference (GLOBECOM)",
+    "venueShort": "IEEE GLOBECOM",
+    "year": 2026,
+    "status": "accepted",
+    "publicationType": "conference",
+    "isFirstAuthor": true,
+    "featured": false,
+    "topic": "RIS",
+    "links": [],
+    "sourceUrls": [],
+    "sourceNote": "Title, author order, and acceptance at IEEE GLOBECOM 2026 provided by Qingxiao Huang on 2026-10-01. DOI and proceedings pagination have not been supplied."
+  },
+  {
     "id": "srs-physical-essence-2026",
     "title": "Bringing Environmental Enhancement Back to Its Physical Essence via Specular Reflecting Surfaces",
     "authors": [

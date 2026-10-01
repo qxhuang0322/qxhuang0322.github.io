@@ -14,8 +14,8 @@ for(const p of papers){
  assert.equal(p.isFirstAuthor,p.authors[0]===profile.name,`First-author flag: ${p.id}`);
  assert(['published','preprint','accepted'].includes(p.status),`Invalid status: ${p.id}`);
  assert(Number.isInteger(p.year)&&p.year>=2000,`Invalid year: ${p.id}`);
- assert(p.links.length&&p.links.every(l=>/^https:\/\//.test(l.url)),`Missing paper links: ${p.id}`);
- assert(p.sourceUrls?.length,`Missing provenance: ${p.id}`);
+ assert((p.links.length||p.status==='accepted')&&p.links.every(l=>/^https:\/\//.test(l.url)),`Missing paper links: ${p.id}`);
+ assert(p.sourceUrls?.length||(p.status==='accepted'&&p.sourceNote),`Missing provenance: ${p.id}`);
  if(p.thumbnail){
   assert(p.thumbnailAlt&&p.figureLabel&&/^https:\/\//.test(p.figureSource||''),`Missing figure description or source: ${p.id}`);
   assert(p.thumbnail.startsWith('assets/publications/'),`Unexpected figure path: ${p.id}`);
@@ -53,6 +53,6 @@ assert.equal((full.match(/class="publication citation-entry"/g)||[]).length,pape
 assert(!/<img\b|class="paper-art"|class="paper-summary"/.test(full),'Full bibliography must use text references without images or abstracts');
 for(const paper of papers){
  assert(full.includes(`data-paper-id="${paper.id}"`),`Bibliography missing paper: ${paper.id}`);
- assert(full.includes(`https://doi.org/${paper.doi}`),`Bibliography missing DOI: ${paper.id}`);
+ if(paper.doi)assert(full.includes(`https://doi.org/${paper.doi}`),`Bibliography missing DOI: ${paper.id}`);
 }
 console.log(`Validated ${files.length} pages, every local link/anchor, and ${papers.length} publication records.`);
