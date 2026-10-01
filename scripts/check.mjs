@@ -49,5 +49,10 @@ for(const file of files){
 const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const full=fs.readFileSync(path.join(root,'pages/all-publications.html'),'utf8');
 assert.equal((home.match(/class="publication"/g)||[]).length,papers.filter(p=>p.isFirstAuthor&&p.featured).length,'Home selection differs from data');
-assert.equal((full.match(/class="publication"/g)||[]).length,papers.filter(p=>p.isFirstAuthor).length,'Full list differs from data');
+assert.equal((full.match(/class="publication citation-entry"/g)||[]).length,papers.length,'Full bibliography must include every coauthored paper');
+assert(!/<img\b|class="paper-art"|class="paper-summary"/.test(full),'Full bibliography must use text references without images or abstracts');
+for(const paper of papers){
+ assert(full.includes(`data-paper-id="${paper.id}"`),`Bibliography missing paper: ${paper.id}`);
+ assert(full.includes(`https://doi.org/${paper.doi}`),`Bibliography missing DOI: ${paper.id}`);
+}
 console.log(`Validated ${files.length} pages, every local link/anchor, and ${papers.length} publication records.`);

@@ -17,7 +17,9 @@
 | 学校标识 | `assets/schools/` |
 | 排版和交互 | `styles.css`、`script.js` |
 
-首页与完整论文列表均只展示 `isFirstAuthor: true` 的论文；其中 `featured: true` 表示论文展示在首页。`status` 使用 `published`、`accepted` 或 `preprint`。`sourceUrls` 用于保存来源，不会显示在网页上。不要用虚构链接或 `#` 代替论文链接。
+首页精选展示 `isFirstAuthor: true` 且 `featured: true` 的论文，保留论文配图。完整论文页展示所有包含 Qingxiao Huang 署名的文章，按年份倒序，以无图片的编号引用列表呈现。`status` 使用 `published`、`accepted` 或 `preprint`。`sourceUrls` 用于保存来源，不会显示在网页上。不要用虚构链接或 `#` 代替论文链接。
+
+完整引用支持 `volume`（卷）、`issue`（期）、`pages`（页码）、`articleNumber`（文章编号）和 `earlyAccess`（在线优先发表）。只填写已通过出版商或 Crossref 核实的元数据；预印本明确标注，不重复列出同篇论文的期刊版和预印本版。
 
 论文图片使用原文中的图，点击可查看大图。将图片放到 `assets/publications/`，在论文记录中设置 `thumbnail`（相对网站根目录的图片路径）、`thumbnailAlt`（图片描述）、`figureLabel`（如 `Fig. 1`）和 `figureSource`（原文链接）。没有原图时不显示配图。
 
